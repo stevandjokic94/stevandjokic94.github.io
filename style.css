@@ -9,7 +9,17 @@ h1{
 h2{
   font-family: 'Ropa Sans', sans-serif;
 }
+h3{
+  font-family: 'Ropa Sans', sans-serif;
+}
+h4{
+  font-family: 'Ropa Sans', sans-serif;
+}
 h5{
+  font-family: 'Ropa Sans', sans-serif;
+  text-align: center;
+}
+h6{
   font-family: 'Ropa Sans', sans-serif;
 }
 li{
@@ -30,6 +40,9 @@ footer{
   right: 0;
   bottom: 0;
   left: 0;
+}
+.jumbotron{
+  background-color: white;
 }
 .coaches{
   position: relative;
