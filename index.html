@@ -18,7 +18,8 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Footer -->
     <link rel="stylesheet" type="text/css" href="Footer-with-map.css">
-
+    <!-- Scroll to top -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="button.css">
@@ -30,8 +31,8 @@
         <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="logo.png" width="110" height="40" alt="">
+        <a class="navbar-brand" href="index.html">
+          <img src="logo.png" width="250" height="75" alt="">
         </a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="icon-bar top-bar"></span>
@@ -42,23 +43,40 @@
 
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
+          	<li class="nav-item active">
+              <a class="nav-link hvr-underline-reveal" href="juniorcamps.html">Junior Camps </a>
+            </li>
+          	<li class="nav-item active">
+              <a class="nav-link hvr-underline-reveal" href="junioracademy.html">Junior Academy </a>
+            </li>
+            <li class="nav-item active dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Our Coaches 
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item hvr-underline-reveal" href="markodjokovic.html">Marko Djokovic</a>
+		          <a class="dropdown-item hvr-underline-reveal" href="draganserer.html">Dragan Serer</a>
+		          <a class="dropdown-item hvr-underline-reveal" href="vuktapuskovic.html">Vuk Tapuskovic</a>
+		          <a class="dropdown-item hvr-underline-reveal" href="filipzivkovic.html">Filip Zivkovic</a>
+		          <a class="dropdown-item hvr-underline-reveal" href="srdjantapuskovic.html">Srdjan Tapuskovic</a>
+		        </div>
+		    </li>
             <li class="nav-item active">
-              <a class="nav-link hvr-underline-reveal" href="#">Galery </a>
+              <a class="nav-link hvr-underline-reveal" href="news.html">News </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link hvr-underline-reveal" href="#">About Us </a>
+              <a class="nav-link hvr-underline-reveal" href="galery.html">Galery </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link hvr-underline-reveal" href="#">Our Coaches </a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link hvr-underline-reveal" href="#">Contact </a>
+              <a class="nav-link hvr-underline-reveal" href="contact.html">Contact </a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <br>
+    <!-- Return to Top -->
+	<a href="javascript:" id="return-to-top"><i class="fa fa-angle-up"></i></a>
     <div class="container">
       <!-- Carousel -->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -69,13 +87,13 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block img-fluid mx-auto" src="img.jpg" alt="First slide">
+              <img class="d-block img-fluid mx-auto" src="1.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block img-fluid mx-auto" src="img.jpg" alt="Second slide">
+              <img class="d-block img-fluid mx-auto" src="4.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block img-fluid mx-auto" src="img.jpg" alt="Third slide">
+              <img class="d-block img-fluid mx-auto" src="3.png" alt="Third slide">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -90,19 +108,21 @@
         <br>
         <div class="row">
         	<div class="col-md-6" data-aos="fade-right" data-aos-duration="1200">
-        		<figure>
-        			<img class="img-fluid" src="adult.jpg">
-        		</figure>
-        		<div class="carousel-caption">
-	              <h1 align="right">ADULT PROGRAM</h1>
-	            </div>
+       			<a href="juniorcamps.html">
+       				<img class="img-fluid" src="adult.jpg">
+	        		<div class="carousel-caption">
+		              <h1 align="right">JUNIOR CAMPS</h1>
+		            </div>
+				</a>
         	</div>
         	<br>
         	<div class="col-md-6" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="300">
-        		<img class="img-fluid" src="rsz_junior.jpg">
-        		<div class="carousel-caption">
-	              <h1 align="right">JUNIOR PROGRAM</h1>
-	            </div>
+        		<a href="junioracademy.html">
+	        		<img class="img-fluid" src="rsz_junior.jpg">
+	        		<div class="carousel-caption">
+		              <h1 align="right">JUNIOR ACADEMY</h1>
+		            </div>
+		        </a>
         	</div>
         </div>
         <br>
@@ -112,7 +132,9 @@
               <h1 align="center" style="border-bottom: 3px solid #5CB9DF;border-top: 3px solid #5CB9DF">TENNIS CENTER SERBIA</h1>
               <br>
               <p>
-              	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              	Training at our Tennis Center Academy is directed primarily towards players who are trying to break into the international scene and for those who already play international tournaments. Our uncompromising approach provides high quality training in great conditions for all the players striving to get ahead.  Each player is unique with his or her strengths and weaknesses, which is why our entire program and our coaching method is directed towards the individual.
+              	<br>
+              	<br>
               </p>
             </div>
           </div>
@@ -124,24 +146,24 @@
 				  		<div class="row mb-3">
 				            <div class="col-4">
 				                <div class="card" data-aos="fade-up" data-aos-duration="1000">
-				                    <a class="lightbox" href="download.jpeg">
-				                    <img src="download.jpeg" alt="Park" class="card-img-top">
+				                    <a class="lightbox" href="ova1.jpg">
+				                    <img src="hgal1.jpg" alt="Park" class="card-img-top">
 				                    </a>
 				                </div>
 				            </div>
 				             
 				            <div class="col-4">
 				                <div class="card" data-aos="fade-up" data-aos-duration="1000">
-				                    <a class="lightbox" href="download.jpeg">
-				                    <img src="download.jpeg" alt="Park" class="card-img-top">
+				                    <a class="lightbox" href="ova2.jpg">
+				                    <img src="hgal2.jpg" alt="Park" class="card-img-top">
 				                    </a>
 				                </div>
 				            </div>
 				             
 				            <div class="col-4">
 				                <div class="card" data-aos="fade-up" data-aos-duration="1000">
-				                    <a class="lightbox" href="download.jpeg">
-				                    <img src="download.jpeg" alt="Park" class="card-img-top">
+				                    <a class="lightbox" href="ova33.jpg">
+				                    <img src="hgal3.jpg" alt="Park" class="card-img-top">
 				                    </a>
 				                </div>
 				            </div>
@@ -149,24 +171,24 @@
 				        <div class="row mb-3">
 				            <div class="col-4">
 				                <div class="card" data-aos="fade-up" data-aos-duration="1000">
-				                    <a class="lightbox" href="download.jpeg">
-				                    <img src="download.jpeg" alt="Park" class="card-img-top">
+				                    <a class="lightbox" href="ova4.jpg">
+				                    <img src="hgal4.jpg" alt="Park" class="card-img-top">
 				                    </a>
 				                </div>
 				            </div>
 				             
 				            <div class="col-4">
 				                <div class="card" data-aos="fade-up" data-aos-duration="1000">
-				                    <a class="lightbox" href="download.jpeg">
-				                    <img src="download.jpeg" alt="Park" class="card-img-top">
+				                    <a class="lightbox" href="ova55.jpg">
+				                    <img src="hgal5.jpg" alt="Park" class="card-img-top">
 				                    </a>
 				                </div>
 				            </div>
 				             
 				            <div class="col-4">
 				                <div class="card" data-aos="fade-up" data-aos-duration="1000">
-				                    <a class="lightbox" href="download.jpeg">
-				                    <img src="download.jpeg" alt="Park" class="card-img-top">
+				                    <a class="lightbox" href="hgal6_r.jpg">
+				                    <img src="hgal6.jpg" alt="Park" class="card-img-top">
 				                    </a>
 				                </div>
 				            </div>
@@ -174,24 +196,24 @@
 				          <div class="row"> 
 				            <div class="col-4">
 				                <div class="card" data-aos="fade-up" data-aos-duration="1000">
-				                    <a class="lightbox" href="download.jpeg">
-				                    <img src="download.jpeg" alt="Park" class="card-img-top">
+				                    <a class="lightbox" href="ova7.jpg">
+				                    <img src="hgal7.jpg" alt="Park" class="card-img-top">
 				                    </a>
 				                </div>
 				            </div>
 				             
 				            <div class="col-4">
 				                <div class="card" data-aos="fade-up" data-aos-duration="1000">
-				                    <a class="lightbox" href="download.jpeg">
-				                    <img src="download.jpeg" alt="Park" class="card-img-top">
+				                    <a class="lightbox" href="ova8_r.jpg">
+				                    <img src="hgal8.jpg" alt="Park" class="card-img-top">
 				                    </a>
 				                </div>
 				            </div>
 				             
 				            <div class="col-4">
 				                <div class="card" data-aos="fade-up" data-aos-duration="1000">
-				                    <a class="lightbox" href="download.jpeg">
-				                    <img src="download.jpeg" alt="Park" class="card-img-top">
+				                    <a class="lightbox" href="ova9.jpg">
+				                    <img src="hgal9.jpg" alt="Park" class="card-img-top">
 				                    </a>
 				                </div>
 				            </div>
@@ -208,21 +230,31 @@
         <!-- Coach images -->
         <div class="row coaches" align="center">
           <div class="col-md-1"></div>
-          <div class="col-md-2 col-4 animate hvr-shrink">
-            <img src="coach.jpg" data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="450" class="rounded-circle img-fluid m-auto animate hvr-shrink" alt="coach">
+          <div class="col-md-2 col-4 animate hvr-shrink coach" data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="450" align="center">
+            <a href="markodjokovic.html"><img src="marko.jpg" class="rounded-circle img-fluid m-auto animate hvr-shrink" alt="coach"></a>
+            <br>
+            <h4 class="name d-none d-sm-block">Marko Djokovic</h4>
           </div>
-          <div class="col-md-2 col-4 animate hvr-shrink">
-            <img src="marko.jpg" data-aos="fade-down-right" data-aos-duration="1000" data-aos-delay="150" class="rounded-circle img-fluid m-auto animate hvr-shrink" alt="coach">
+          <div class="col-md-2 col-4 animate hvr-shrink coach" data-aos="fade-down-right" data-aos-duration="1000" data-aos-delay="150">
+            <a href="draganserer.html"><img src="dragan.jpg" class="rounded-circle img-fluid m-auto animate hvr-shrink" alt="coach"></a>
+            <br>
+            <h4 class="name d-none d-sm-block">Dragan Serer</h4>
           </div>
-          <div class="col-md-2 col-4 animate hvr-shrink">
-            <img src="vuk.jpg" data-aos="zoom-out" data-aos-duration="1200" class="rounded-circle img-fluid m-auto animate hvr-shrink" alt="coach">
+          <div class="col-md-2 col-4 animate hvr-shrink coach" data-aos="zoom-out" data-aos-duration="1200">
+            <a href="vuktapuskovic.html"><img src="vuk.jpg" class="rounded-circle img-fluid m-auto animate hvr-shrink" alt="coach"></a>
+            <br>
+            <h4 class="name d-none d-sm-block">Vuk Tapuskovic</h4>
           </div>
           <div class="col-2 d-sm-none"></div>
-          <div class="col-md-2 col-4 animate hvr-shrink">
-            <img src="filip.jpg" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="300" class="rounded-circle img-fluid m-auto animate hvr-shrink" alt="coach">
+          <div class="col-md-2 col-4 animate hvr-shrink coach" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="300">
+            <a href="filipzivkovic.html"><img src="filip.jpg" class="rounded-circle img-fluid m-auto animate hvr-shrink" alt="coach"></a>
+            <br>
+            <h4 class="name d-none d-sm-block">Filip Zivkovic</h4>
           </div>
-          <div class="col-md-2 col-4 animate hvr-shrink">
-            <img src="srdja.jpg" data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="600" class="rounded-circle img-fluid m-auto animate hvr-shrink" alt="coach">
+          <div class="col-md-2 col-4 animate hvr-shrink coach" data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="600">
+            <a href="srdjantapuskovic.html"><img src="srdja.jpg" class="rounded-circle img-fluid m-auto animate hvr-shrink" alt="coach"></a>
+            <br>
+            <h4 class="name d-none d-sm-block">Srdja Tapuskovic</h4>
           </div>
 	    </div>
 	</div>
@@ -247,7 +279,7 @@
 	        </div>
         </div>
         <div class="footer-copyright" align="center">
-            <p align="center">© 2016 Copyright Text </p>
+            <p align="center">©  </p>
         </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
